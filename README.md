@@ -29,7 +29,7 @@ Designed with a dark and immersive visual style, the website combines bold typog
 - Vite
 - React Router
 - GSAP
-- ScrollTrigger
+- React Icons
 - Git
 - GitHub
 
