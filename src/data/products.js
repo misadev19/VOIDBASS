@@ -1,10 +1,15 @@
+import vb01 from "../assets/products/vb-01.jpg";
+import vb02 from "../assets/products/vb-02.jpg";
+import vbS01 from "../assets/products/vb-s01.jpg";
+import vbS02 from "../assets/products/vb-s02.jpg";
+
 const products = [
   {
     id: "vb-01",
     name: "VB-01",
     category: "Headphones",
     price: 48000,
-    image: "/images/products/vb-01.jpg",
+    image: vb01,
     description:
       "Precision-engineered headphones designed for immersive, uncompromised sound.",
     features: [
@@ -27,7 +32,7 @@ const products = [
     name: "VB-02",
     category: "Headphones",
     price: 68000,
-    image: "/images/products/vb-02.jpg",
+    image: vb02,
     description:
       "Flagship wireless headphones built for powerful, detailed listening.",
     features: [
@@ -50,7 +55,7 @@ const products = [
     name: "VB-S01",
     category: "Speakers",
     price: 72000,
-    image: "/images/products/vb-s01.jpg",
+    image: vbS01,
     description:
       "A compact wireless speaker delivering deep bass and precise spatial detail.",
     features: [
@@ -73,7 +78,7 @@ const products = [
     name: "VB-S02",
     category: "Speakers",
     price: 128000,
-    image: "/images/products/vb-s02.jpg",
+    image: vbS02,
     description:
       "A high-performance speaker engineered to fill the room with uncompromising sound.",
     features: [

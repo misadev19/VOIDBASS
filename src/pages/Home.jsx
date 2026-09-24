@@ -6,6 +6,7 @@ import { FiArrowUpRight, FiInstagram, FiFacebook } from "react-icons/fi";
 import { FaXTwitter } from "react-icons/fa6";
 import "../styles/Home.css";
 
+import heroImage from "../assets/hero/hero.jpg";
 import products from "../data/products";
 
 gsap.registerPlugin(ScrollTrigger);
@@ -215,7 +216,7 @@ function Home() {
 
       <section ref={heroRef} className="hero-section">
         <div className="hero-background">
-          <img src="/images/hero/hero.jpg" alt="" />
+          <img src={heroImage} alt="" />
         </div>
 
         <div className="hero-inner">

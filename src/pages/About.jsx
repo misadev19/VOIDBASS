@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import "../styles/About.css";
+import aboutHero from "../assets/hero/about-hero.jpg";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -184,7 +185,7 @@ function About() {
 
       {/* HERO IMAGE */}
       <section className="about-hero-image">
-        <img src="/images/hero/about-hero.jpg" alt="" />
+        <img src={aboutHero} alt="" />
       </section>
 
       {/* BRAND CONCEPT */}
